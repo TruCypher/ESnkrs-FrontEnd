@@ -1,0 +1,54 @@
+.Welcome {
+    display: flex;
+    margin-top: 100px;
+    flex-grow: 1;
+    flex-flow: column;
+}
+
+.Welcome-text span{
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+}
+.tick {
+    width: 40px;
+    height: 65px
+}
+
+.stockStatus {
+    font-family: 'BioRhyme';
+    font-size: 20px;
+    border-radius: 128px;
+    width: 200px;
+    background-color: #22D1EE;
+    color: #0E153A;
+    font-weight: bold;
+}
+
+.Welcome-button {
+    flex-grow: 1;
+}
+
+.Welcome-footer {
+    display:flex;
+    flex-flow: column;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.Welcome-footer h5 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    color:white;
+    letter-spacing: 1;
+}
+
+.Welcome-footer img {
+    height: 35px;
+}
