@@ -3,6 +3,8 @@
     margin-top: 100px;
     flex-grow: 1;
     flex-flow: column;
+    opacity: 1;
+    transition: opacity .5s ease-out;
 }
 
 .Welcome-text span{

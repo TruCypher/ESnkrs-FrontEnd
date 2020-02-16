@@ -15,7 +15,7 @@ export default class HomePage extends Component {
 
     render() {
         return (
-            <div className = "d-flex container-fluid background">
+            <div className = "container-fluid background">
                 <Navbar />
                 <WelcomeSection />
             </div>
