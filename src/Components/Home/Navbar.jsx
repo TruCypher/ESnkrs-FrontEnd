@@ -53,15 +53,15 @@ export default class Navbar extends Component {
                     <div className="right-nav d-flex ml-auto">
                         <p className="align-self-center">Home</p>
                         <p className="align-self-center">Feature</p>
-                        <p className="align-self-center">Success</p>
                         <p className="align-self-center">FAQ</p>
+                        <p className="align-self-center">Contact</p>
                     </div>
                 </div>
                 <div className="sideMenu">
                     <a className=""> &nbsp;Home</a>
                     <a className=""> &nbsp;Feature</a>
-                    <a className=""> &nbsp;Success</a>
                     <a className=""> &nbsp;FAQ</a>
+                    <a className=""> &nbsp;Contact</a>
                 </div>
             </>
         );

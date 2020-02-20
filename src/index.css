@@ -7,8 +7,19 @@
   font-style: "regular";
   src: url("./Fonts//AvertaDemoPE-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: "Averta";
+  font-style: "italic";
+  font-weight: bold;
+  src: url("./Fonts//AvertaDemoPE-ExtraboldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Bernier";
+  src: url("./Fonts/BERNIERRegular-Regular.woff") format("woff");
+}
 
 body {
+  background-color: #0D2036 !important;
   height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,7 +27,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   min-width: 320px;
   max-width: 1920px;
 }
@@ -25,5 +35,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app {
+  flex-flow: column;
+}
 
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #22D1EE;
+  border-radius: 10px;
+}

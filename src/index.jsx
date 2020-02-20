@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomePage from './Components/Home/HomePage';
+import App from './app.jsx';
 
-ReactDOM.render(<HomePage />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -1,0 +1,31 @@
+.FAQText {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.FAQWrap {
+    border-left: 10px solid teal;
+    padding-left: 30px;
+}
+.FAQT {
+    font-family: "BioRhyme";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.FAQI {
+    font-family: "Averta";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+}
+.FAQAnswer {
+    display: flex;
+    justify-content: center;
+}
+.FAQCover {
+    margin-top: 60px;
+}
+.FAQCover > div {
+    background-color: teal;
+}
