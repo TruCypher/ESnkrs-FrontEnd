@@ -2,8 +2,10 @@
     margin-top: 30vh;
 }
 .circle {
+    opacity: 0;
     position: relative;
     margin-top: 100px;
+    left: calc(50% - 200px);
     height: 800px;
 }
 .circle > img{
@@ -61,7 +63,22 @@
     font-weight: bold;
     font-size: 1.25em;
 }
+@keyframes circleEnter{
+    from{
+        opacity: 0;
+        transform: translateY(30%);
+        }
+    to{
+        opacity: 1;
+        transform: rotate(0) translateY(0);
+        }
+}
 
+.circleEnter{
+    opacity: 1;
+    animation: circleEnter 1 ease;
+    animation-duration: 1.5s;
+}
 @keyframes circle{
     from {
         transform: rotate(0deg);

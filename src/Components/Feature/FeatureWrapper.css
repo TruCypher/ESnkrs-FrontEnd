@@ -18,17 +18,20 @@
     opacity: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 10px;
 }
 .second-order {
     opacity: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 10px;
 }
 .third-order {
     opacity: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
 }
@@ -38,7 +41,7 @@
     flex-flow: column;
     width: 330px;
     height: 170px;
-    background-color: #0B1D31;
+    background-color: transparent;
     border-radius: 5px;
     box-shadow: 12px 12px 25px black;
 }
@@ -75,7 +78,7 @@
     flex-flow: column;
     width: 210px;
     height: 110px;
-    background-color: #0B1D31;
+    background-color: transparent;
     border-radius: 5px;
     box-shadow: 12px 12px 25px black;
 }
@@ -95,10 +98,10 @@
     font-weight: bold;
     font-size: 1em;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
 }
 .normalBox img {
-    height: 45px;
+    height: 50px;
     padding: 5px;
 }
 .iconsvg {
@@ -144,5 +147,37 @@
 @media only screen and (max-width: 650px) {
     .PageHeader {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .gmail-forward {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .bigBox {
+        margin: 0px
+    }
+    .normalBox {
+        margin: 0px
+    }
+    .gmail-filter {
+        margin-left: 10px
+    }
+    .spoof {
+        margin-left: 10px
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .gmail-filter {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .spoof {
+        margin-top: 20px;
+        margin-left: 0px;
     }
 }

@@ -6,7 +6,7 @@ import Bound from 'bounds.js';
 * he he
 */
 import bar from './../../Logos/bar.svg';
-import raffle from './../../Logos/raffle.png';
+import raffle from './../../Logos/raffle.svg';
 import thread from './../../Logos/thread.svg';
 import g from './../../Logos/g.svg';
 import cookies from './../../Logos/cookies.svg';

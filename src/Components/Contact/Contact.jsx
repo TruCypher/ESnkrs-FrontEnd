@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './Contact.css';
+import Bound from 'bounds.js';
 import bar from './../../Logos/bar.svg';
 import first from './../../Logos/outer.svg';
 import second from './../../Logos/secondCircle.svg';
@@ -13,6 +14,18 @@ export default class Contact extends Component {
         super(props);
     }
 
+    componentDidMount() {
+        const bound = Bound({
+            margins: 0
+        });
+
+        let circle = document.querySelector(".circle");
+        bound.watch(circle, () => {
+            circle.classList.add("circleEnter");
+            bound.unWatch(circle);  
+        });
+    }
+    
     render() {
         return (
             <div id="Contact">

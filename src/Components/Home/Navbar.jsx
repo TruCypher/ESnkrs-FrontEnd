@@ -29,11 +29,15 @@ export default class Navbar extends Component {
     componentDidUpdate () {
         let welcome = document.querySelector(".Welcome");
         let sideMenu = document.querySelector(".sideMenu");
+        let body = document.querySelector("body");
 
         if(this.state.popupMenu) {
             welcome.style.opacity = 0;
             sideMenu.style.width = "100%";
+            body.style.position = 'fixed';
+
         } else {
+            body.style.position = '';
             welcome.style.opacity = 1;
             sideMenu.style.width = "0%";
         }

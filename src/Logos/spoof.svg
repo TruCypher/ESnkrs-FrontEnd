@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="71" height="71.001" viewBox="0 0 71 71.001">
-  <g id="Group_35" data-name="Group 35" transform="translate(-1289 -525.999)">
-    <g id="Group_34" data-name="Group 34" transform="translate(458 -270)">
-      <g id="Ellipse_19" data-name="Ellipse 19" transform="translate(842 807)" fill="#277fb7" stroke="#707070" stroke-width="1">
-        <circle cx="24.5" cy="24.5" r="24.5" stroke="none"/>
-        <circle cx="24.5" cy="24.5" r="24" fill="none"/>
-      </g>
-      <text id="E" transform="translate(859 838)" fill="#fff" font-size="19" font-family="BioRhyme-Bold, BioRhyme" font-weight="700"><tspan x="0" y="0">E</tspan></text>
-    </g>
-    <path id="Union_3" data-name="Union 3" d="M3893.377,816.25a35.009,35.009,0,0,1,27.248-64.5c.272.115.555.24.841.369l-5.595,5.953a28.052,28.052,0,0,0-8.7-1.377A27.479,27.479,0,1,0,3935,784.173c0-.061,0-.119,0-.173h-21.1v-6.1H3942V784a34.832,34.832,0,0,1-5.978,19.569,35.106,35.106,0,0,1-15.4,12.681,35.118,35.118,0,0,1-27.248,0Z" transform="translate(-2582.5 -222.5)" fill="#ff7801" stroke="#707070" stroke-width="1"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="58.5" height="58.499" viewBox="0 0 58.5 58.499"><defs><style>.a{fill:#385ac9;}.b{fill:#fff;font-size:19px;font-family:BioRhyme-Bold, BioRhyme;font-weight:700;}.c{fill:#ff3e73;}</style></defs><g transform="translate(-366.5 -270)"><g transform="translate(-471 -532)"><circle class="a" cx="24.5" cy="24.5" r="24.5" transform="translate(842 807)"/><text class="b" transform="translate(859 838)"><tspan x="0" y="0">E</tspan></text></g><g transform="translate(366.5 270)"><g transform="translate(0 0)"><path class="c" d="M29.25,58.5a29.113,29.113,0,0,1-16.354-5A29.346,29.346,0,0,1,2.3,40.635,29.207,29.207,0,0,1,5,12.9,29.33,29.33,0,0,1,17.865,2.3a29.206,29.206,0,0,1,25.92,1.563l-4.762,6.831A21.011,21.011,0,1,0,50.213,26.347l8.162.165c.083.9.126,1.825.126,2.737a29.112,29.112,0,0,1-5,16.353,29.335,29.335,0,0,1-12.87,10.6A29.066,29.066,0,0,1,29.25,58.5Z"/></g><path class="c" d="M-3681.095-220.9h-20.631v6.625h20.631Z" transform="translate(3739.595 241.286)"/></g></g></svg>
