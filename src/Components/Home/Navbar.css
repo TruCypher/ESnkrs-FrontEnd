@@ -41,7 +41,10 @@
     overflow: hidden;
     display: block;
 }
-.right-nav > p {
+a[href^='#']:hover {
+    text-decoration: none;
+}
+.right-nav > p > a {
     color : white;
     font-family: "Averta";
     margin: 10px;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './FeatureWrapper.css';
-
+import Bound from 'bounds.js';
 /* 
 * import svg
 * he he
@@ -18,9 +18,38 @@ export default class FeatureWrapper extends Component {
         super();
     }
 
+    componentDidMount() {
+        const bound = Bound({
+            margins: {
+                bottom: 10
+            }
+        });
+
+        let first = document.querySelector(".first-order");
+        let second = document.querySelector(".second-order");
+        let third = document.querySelector(".third-order");
+
+        bound.watch(first, ()=> {
+            first.classList.add("afteranimation");
+            first.classList.add("appear1");
+            bound.unWatch(first);
+        });
+        bound.watch(second, ()=> {
+            second.classList.add("afteranimation");
+            second.classList.add("appear2");
+            bound.unWatch(second);
+        });
+        bound.watch(third, ()=> {
+            third.classList.add("afteranimation");
+            third.classList.add("appear3");
+            bound.unWatch(third);
+        });
+
+    }
+
     render() {
         return (
-            <div>
+            <div id="Feature">
                 <div className="PageHeader d-flex justify-content-center align-items-center text-white">
                     <img src={bar} alt=""/> <h1>FEATURE</h1> <img src={bar} alt=""/>
                 </div>

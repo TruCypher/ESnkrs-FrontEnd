@@ -6,6 +6,15 @@ import showmore from './../../Logos/showmore.svg';
 
 export default class WelcomeSection extends Component {
 
+    componentDidMount() {
+        let seemore = document.querySelector(".Welcome-footer");
+        seemore.addEventListener("click", () => {
+            document.querySelector("#Feature").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    }
+
     render() {
         return (
             <div className="Welcome"> 

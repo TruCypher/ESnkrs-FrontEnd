@@ -19,6 +19,7 @@
 }
 
 body {
+  scroll-behavior: smooth;
   background-color: #0D2036 !important;
   height: 100%;
   margin: 0;

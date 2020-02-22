@@ -51,17 +51,17 @@ export default class Navbar extends Component {
                         <img src={menu} alt="Menu"/>
                     </div>
                     <div className="right-nav d-flex ml-auto">
-                        <p className="align-self-center">Home</p>
-                        <p className="align-self-center">Feature</p>
-                        <p className="align-self-center">FAQ</p>
-                        <p className="align-self-center">Contact</p>
+                        <p className="align-self-center"><a href="#Home">Home</a></p>
+                        <p className="align-self-center"><a href="#Feature">Feature</a></p>
+                        <p className="align-self-center"><a href="#FAQ">FAQ</a></p>
+                        <p className="align-self-center"><a href="#Contact">Contact</a></p>
                     </div>
                 </div>
                 <div className="sideMenu">
-                    <a className=""> &nbsp;Home</a>
-                    <a className=""> &nbsp;Feature</a>
-                    <a className=""> &nbsp;FAQ</a>
-                    <a className=""> &nbsp;Contact</a>
+                    <a href="#Home" className="#Home" onClick={this.showmore.bind(this)}> &nbsp;Home</a>
+                    <a href="#Feature" className="#Feature" onClick={this.showmore.bind(this)}> &nbsp;Feature</a>
+                    <a href="#FAQ" className="#FAQ" onClick={this.showmore.bind(this)}> &nbsp;FAQ</a>
+                    <a href="#Contact" className="#Contact" onClick={this.showmore.bind(this)}> &nbsp;Contact</a>
                 </div>
             </>
         );

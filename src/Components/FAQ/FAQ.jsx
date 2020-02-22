@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './FAQ.css';
 import bar from './../../Logos/bar.svg';
+import Bound from 'bounds.js';
 
 export default class FAQ extends Component {
 
@@ -9,9 +10,41 @@ export default class FAQ extends Component {
         super(props);
     }
 
+    componentDidMount() {
+        const bound = Bound({
+            marigins: 10
+        });
+
+        let faqText = document.querySelector(".FAQWrap");
+        let cost = document.querySelector(".cost");
+        let compat = document.querySelector(".compatible");
+        let contact = document.querySelector(".contactAd");
+
+        bound.watch(faqText, () => {
+            faqText.classList.add("afteranimation");
+            faqText.classList.add("leftIn");
+            bound.unWatch(faqText);
+        });
+        bound.watch(cost, () => {
+            cost.classList.add("afteranimation");
+            cost.classList.add("appear1");
+            bound.unWatch(cost);
+        });
+        bound.watch(compat, () => {
+            compat.classList.add("afteranimation");
+            compat.classList.add("appear2");
+            bound.unWatch(compat);
+        });
+        bound.watch(contact, () => {
+            contact.classList.add("afteranimation");
+            contact.classList.add("appear3");
+            bound.unWatch(contact);
+        });
+    }
+
     render() {
         return (
-            <div className="FAQ">
+            <div className="FAQ" id="FAQ">
                 <div className="PageHeader d-flex justify-content-center align-items-center text-white">
                     <img src={bar} alt=""/> <h1>FAQ</h1> <img src={bar} alt=""/>
                 </div>

@@ -7,21 +7,23 @@ import Contact from './Components/Contact/Contact.jsx';
 
 export default class app extends Component {
 
+    componentDidMount() {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    }
     render() {
         return (
             <div className="">
                 <HomePage />
-                <br/>
                 <Feature />
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <FAQ />
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <Contact />
             </div>
         );

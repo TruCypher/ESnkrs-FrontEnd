@@ -1,9 +1,13 @@
+#FAQ {
+    margin-top: 30vh;
+}
 .FAQText {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 .FAQWrap {
+    opacity: 0;
     border-left: 10px solid teal;
     padding-left: 30px;
 }
@@ -28,4 +32,28 @@
 }
 .FAQCover > div {
     background-color: teal;
+}
+.cost {
+    opacity: 0;
+}
+.compatible {
+    opacity: 0;
+}
+.contactAd {
+    opacity: 0;
+}
+
+@keyframes leftIn{
+    0%{
+        transform: translateX(-20%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateX(0);
+        opacity: 1;
+        }
+}
+.leftIn{
+    animation: leftIn 1 ease;
+    animation-duration: 1.5s;
 }

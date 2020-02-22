@@ -15,7 +15,7 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <>
+            <div id="Contact">
                 <div className="contact container">
                     <div className="PageHeader d-flex justify-content-center align-items-center text-white">
                         <img src={bar} alt=""/> <h1>CONTACT</h1> <img src={bar} alt=""/>
@@ -28,14 +28,13 @@ export default class Contact extends Component {
                         <img src={fourth} alt="" className=""/>
                         <span className="info">
                             <h5 id="ref" className="text-white"> discord.gg/GQyYhgR </h5>
-                            <h5 id="ref" className="text-white"> https://twitter.com/ESnkrsBot</h5>
                         </span>
                     </div>
                 </div>
                 <div className="Footer">
                     <h6> &copy; CopyRight From ESnkrs </h6>
                 </div>
-            </>
+            </div>
         );
     }
 }
