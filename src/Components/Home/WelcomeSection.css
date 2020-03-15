@@ -54,3 +54,9 @@
 .Welcome-footer img {
     height: 35px;
 }
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}

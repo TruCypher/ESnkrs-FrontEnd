@@ -24,7 +24,7 @@ export default class WelcomeSection extends Component {
                     <img className="tick img-fluid" src={tickmark} alt="tick"/> 
                 </h1>
                 <div className="Welcome-button d-flex justify-content-center align-items-center">
-                    <button className="stockStatus btn"> Sold Out</button>
+                    <button className="stockStatus btn"> <a href="/login" >log In</a> </button>
                 </div>
                 <div className="Welcome-footer d-flex justify-content-center">
                     <h5>See More</h5>
